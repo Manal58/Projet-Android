@@ -1,7 +1,3 @@
 <resources>
-    <string name="app_name">TripApplication</string>
-    <string name="search">Search</string>
-    <string name="bottom_navigation_menu_landscape">Landscape</string>
-    <string name="bottom_navigation_menu_logos">Logo</string>
-    <string name="bottom_navigation_menu_android">Android</string>
+    <string name="app_name">weatherApptutorial</string>
 </resources>
