@@ -22,23 +22,14 @@ public class DashboardActivity extends AppCompatActivity {
         LogOUT = (Button)findViewById(R.id.button1);
 
         Intent intent = getIntent();
-
-        // Receiving User Email Send By LoginActivity.
         EmailHolder = intent.getStringExtra(LoginActivity.UserEmail);
-
-        // Setting up received email to TextView.
         Email.setText(Email.getText().toString()+ EmailHolder);
 
-        // Adding click listener to Log Out button.
         LogOUT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                //Finishing current DashBoard activity on button click.
                 finish();
-
                 Toast.makeText(DashboardActivity.this,"Log Out Successful", Toast.LENGTH_LONG).show();
-
             }
         });
 
